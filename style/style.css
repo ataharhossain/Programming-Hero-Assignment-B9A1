@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid rgb(151, 247, 6);
+}
+main{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center ;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+    border: none;
+    font-size: 20px;
+}
+
+section{
+    margin-top: 50px;
+    border: 2px solid black;
+    height: 100px;
+    width: 80%;
+}
+
+
+/* section1 CSS start */
+
+.section1{
+    margin: 50px 140px 0px;
+    width: 1360px;
+    height: 600px;
+    background-image: url(../images/Banner\ Image.png);
+    background-size: cover;
+    color: #ffffff;
+    font-family: Merriweather;
+    border: 2px dotted;
+}
+#party{
+    width: 632px;
+    text-align: center;
+    font-size: 72px;
+    position: relative;
+    left:364px ;
+    top: 205px;
+    font-weight: 900;
+    line-height: 95px; 
+}
+
+#year{
+    position: relative;
+    left: 550px;
+    top: 205px;
+    height: 60px;
+    width: 260px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* section1 CSS end */
+
+
+/* section2 CSS start */
+
+.section2{
+   margin-top: 100px;
+   height: 900px;
+    width: 800px;
+}
+
+#off{
+    margin: 30px 210px;
+    height: 110px;
+    width: 380px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#deals{
+    margin: 30px 200px;
+    color: #F00;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+#categories{
+    margin:30px 195px;
+    width: 410px;
+    height: 60px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.img{
+    margin-top: 30px;
+    height: 550px;
+    width: 800px;
+    background-image: url(../images/New\ Year\ Photo.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+/* section2 CSS end */
+
+/* section3 CSS start */
+
+.section3{
+    width: 1320px;
+    height: 600px;
+    background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    border: none;
+}
+
+.h2024{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left: 60%;
+    top: 10%;
+    background: none;
+}
+
+#midnight{
+    display: flex;
+    flex-wrap: wrap;
+    height:175px;
+    width:600px;
+     position: relative;
+     bottom:40%;
+     left: 15%;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.mass{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 600px;
+    position: relative;
+    bottom:40%;
+    left: 15%;
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.button{
+    color: #FFF;
+    position: relative;
+    bottom:40%;
+    left: 15%;
+    background:none;
+    border-bottom: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+/* section3 CSS End */
+
+/* section4 CSS start */
+.section4{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    width: 1320px;
+height: 482px;
+    background-color:rgb(245, 189, 189)  ;
+}
+
+.section4 span{
+    color:red;
+}
+.section4 h5{
+    position: relative;
+    top: 28%;
+}
+.section4 h4{
+    position: relative;
+    top: 28%;
+}
+.section4 h3{
+    position: relative;
+    top: 28%;
+}
+.section4 button{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-weight: 700;
+    background: #F00;
+    color: #ffffff;
+    border-radius: 4px;
+    
+}
+
+/* section4 CSS End */
+
+
+/* section6 CSS start */
+
+.section6 {
+    width: 1320px;
+    height: 955px;
+    border: none;
+}
+
+.article{
+    
+    text-align: center;
+    width: 1320px;
+    height: 300px;
+    border: none;
+}
+.article h1{
+    margin-top: 20px;
+    position: relative;
+    left: 20%;
+    text-align: center;
+    width: 770px;
+    height: 100px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.article h3{
+    margin-top: 20px;
+}
+
+.article h4{
+    margin-top: 20px;
+    position: relative;
+    left: 25%;
+    height: 90px;
+    width: 670px;
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.article h4 span{
+    color:red;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.pic{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 1320px;
+    height: 500px;
+}
+
+
+.box1{
+    position: relative;
+    left: 67%;
+    height: 435px;
+    width: 435px;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box4{
+    height: 200px;
+    width: 1320px;
+    background-color: #F00;
+
+}
+
+.box3{
+    position: relative;
+    top: 25%;
+    right: 10%;
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%;
+    background-image: url(../images/Group\ 44.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    position: relative;
+    top: 40%;
+    right: 25%;
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/Group\ 75.png);
+    background-size: cover;
+
+}
+
+/* section6 CSS end */
+
+/* section7 CSS Start */
+
+.section7{
+    margin-top: 100px;
+    width: 1320px;
+    height: 1200px;
+}
+
+.section7 .portfolio{
+    width: 1320px;
+    height: 200px;
+}
+
+.section7 .portfolio #p1{
+    width: 250px;
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ 
+}
+
+.section7 .portfolio #p2{
+    width: 500px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section7 .portfolio #p3{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.items{
+    width: 1320px;
+    display: flex;
+    height: 1000px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items .box5{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 3.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.items .box6{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 4.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.items .box7{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 5.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.items .box8{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 6.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.items .box9{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 7.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.items .box10{
+    width: 28%;
+    height: 450px;
+    background-image: url(../images/Rectangle\ 8.png);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+/* section7 CSS End */
+
+/* section8 css start */
+
+.section8{
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    border: none;
+}
+.div1{
+    width: 150px;
+    height:150px ;
+    background-image: url(../images/Group\ 61.png);
+    background-size: cover;
+    margin: 100px 500px 0px 500px;
+}
+.div2{
+    width:520px ;
+    height:60px ;
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 30px;
+margin: 10px 500px 0px 500px;
+font-weight: 900;
+}
+
+.div3{
+    width:900px;
+    height:70px;
+    margin: 0px 150px 0px 150px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.div4{
+    width: 680px;
+    height: 72px;
+    border-radius: 20px;
+    display: flex;
+}
+.div4 input{
+    width: 500px;
+    border-radius: 20px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius:1px ;
+    font-size: 30px;
+}
+.div4 button{
+    width: 180px;
+    border-radius: 20px;
+    border-top-left-radius:1px;
+    border-bottom-left-radius:1px ;
+    font-size: 20px;
+    background-color: #F00;
+    
+}
+
+/* section8 CSS end  */
+
+/* footer CSS start */
+
+footer{
+    width: 100vw;
+    height: 600px;
+    background: #070211; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact{
+    width: 80%;
+    height: 30%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 80%;
+    height: 10%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    margin: 50px;
+    margin-bottom: 200px;
+}
+.icon2{
+    margin: 50px;
+    margin-bottom: 200px;
+}
+.icon3{
+    margin: 50px;
+    margin-bottom: 200px;
+}
+.icon4{
+    margin: 50px;
+    margin-bottom: 200px;
+}
+.all{
+    color: #FFF;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer CSS End */
