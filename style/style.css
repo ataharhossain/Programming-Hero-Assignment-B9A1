@@ -220,6 +220,118 @@ height: 482px;
 
 /* section4 CSS End */
 
+/* section5 CSS start */
+.section5{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 600px;
+}
+
+.comeingSoon{
+    width: 32%;
+    height: 100%;
+    border: none;
+
+}
+
+.new{
+    width: 230px;
+    height: 30px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 100px 0px 50px 0px;
+}
+
+.soon{
+    width: 350px;
+    height: 60px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 30px 0px 50px 0px;
+    padding-bottom: 10px;
+   
+}
+
+.mess2 {
+    height: 150px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.circleImg{
+    align-self: center;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 20px solid red;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circleImg1{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(../images/Ellipse\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.happy24{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.h2024{
+    width: 130px;
+    height: 60px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+   margin-right: 620px;
+   margin-top: 50px;
+}
+.mess3{
+    height: 100px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 50px;
+    font-weight: 400;
+
+}
+
+.happyImg{
+width: 200px;
+height: 200px;
+margin-right: 50px;
+background-image: url(../images/Group\ 96.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/* section5 CSS End */
+
 
 /* section6 CSS start */
 
